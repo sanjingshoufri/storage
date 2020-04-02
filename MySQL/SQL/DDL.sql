@@ -1,5 +1,5 @@
 # 表结构添加一个字段
-ALTER TABLE es_user ADD is_binding_dy tinyint(1) NOT NULL DEFAULT '0' COMMENT '抖音绑定状态';
+ALTER TABLE es_user ADD today_rec_order_num tinyint(1) NOT NULL DEFAULT '0' COMMENT '今日接单数';
 
 # 创建表
 CREATE TABLE `es_user_binding_douyin` (
