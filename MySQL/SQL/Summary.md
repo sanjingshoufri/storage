@@ -1,0 +1,14 @@
+# 总结
+## 运算顺序
+理论上的运行顺序
+1. FROM 
+2. ON 
+3. JOIN 
+4. WHERE 
+5. GROUP BY 
+6. WITH CUBE or WITH ROLLUP 
+7. HAVING 
+8. SELECT 
+9. DISTINCT 
+10. ORDER BY 
+11. TOP 
