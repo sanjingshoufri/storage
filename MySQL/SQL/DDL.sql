@@ -1,6 +1,9 @@
 # 表结构添加一个字段
 ALTER TABLE es_user ADD today_rec_order_num tinyint(1) NOT NULL DEFAULT '0' COMMENT '今日接单数';
 
+# 表结构删除一个字段
+ALTER TABLE `table` DROP column column1;
+
 # 创建表
 CREATE TABLE `es_user_binding_douyin` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
