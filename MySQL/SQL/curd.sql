@@ -9,3 +9,6 @@ WHERE
     c1.phone_num = c2.phone_num;
 
 # 关联更新
+
+# 清空表
+TRUNCATE table;
