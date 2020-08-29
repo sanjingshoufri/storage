@@ -15,3 +15,10 @@
 - 遇到的问题，https://blog.csdn.net/Jimmy_xmb/article/details/86518617
 - 磁盘空间不足
 	- 删除了磁盘数据
+
+## 配置
+### 配置网络
+- 安装后的centos，没有连接上网络.
+
+## 使用
+- 网络连通之后，便可以直接用xshell进行连接了.
