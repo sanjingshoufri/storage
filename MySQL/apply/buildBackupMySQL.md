@@ -22,3 +22,19 @@
 
 ## 使用
 - 网络连通之后，便可以直接用xshell进行连接了.
+
+# MySQL安装
+- 查看MySQL安装
+	- rpm -qa | grep -i mysql
+- 卸载MySQL
+	- 
+	
+
+# 备份还原成数据
+## 软件
+- 安装percona-xtrabackup
+	- 注意它的版本需要与MySQL的版本一致
+	- rpm -ivh percona-xtrabackup-24-2.4.20-1.el7.x86_64.rpm
+
+# 文件添加
+- 将解压出来的文件，直接全部复制拷贝到mysql的数据目录下，直接覆盖拷贝.
