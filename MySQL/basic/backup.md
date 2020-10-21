@@ -7,3 +7,4 @@
 	- xbstream -x -C ./ < 20200827160417.xb
 - qpress将其中的.qp结尾的文件解压出来.
 	- xtrabackup --decompress --target-dir=./
+
