@@ -1,5 +1,4 @@
 # 操作
-
 ## Operation列表
 - 插入数据
     - insert disk_free,hostname=tanner value=442221834240i
