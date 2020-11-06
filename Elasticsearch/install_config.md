@@ -3,4 +3,7 @@
     - ./elasticsearch-plugin install -h  查看可以安装的plugins.
     - ./elasticsearch-plugin install file:///home/download/license-2.4.6.zip 安装插件
 
+# 配置
+- 
+
 # 监控工具
