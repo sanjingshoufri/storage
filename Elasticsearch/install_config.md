@@ -6,4 +6,15 @@
 # 配置
 - 
 
+# 卸载
+- rpm安装的包
+	- 
+
+# 运行
+## 问题
+- org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
+	- 不能用root权限运行
+    - 解决方案
+	    - 
+
 # 监控工具
