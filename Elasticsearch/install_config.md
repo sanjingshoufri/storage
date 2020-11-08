@@ -4,17 +4,14 @@
     - ./elasticsearch-plugin install file:///home/download/license-2.4.6.zip 安装插件
 
 # 配置
-- 
-
-# 卸载
-- rpm安装的包
-	- 
+- network.host: 0.0.0.0
+	- 线上不能设置所有ip都能访问
 
 # 运行
 ## 问题
 - org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
 	- 不能用root权限运行
     - 解决方案
-	    - 
+	    - 创建一个新的用户，将相目录分配给该用户
 
 # 监控工具
