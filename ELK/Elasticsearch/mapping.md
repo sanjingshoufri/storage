@@ -6,6 +6,6 @@
 	- Fields
 		- 
 
-# 设置避免mapping迸发
+# 设置避免mapping爆炸
 - 
 - 
