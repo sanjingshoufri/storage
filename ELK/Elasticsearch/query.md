@@ -46,4 +46,10 @@
 
 ## Geo Query
 ### 概述
-- es支持两类geo数据，支持lat/lon对的geo_point列，支持得分、行数、环、多边形模块等
+- es支持两类geo数据，支持lat/lon对的geo_point列，支持得分、行数、环、多边形模块等.
+- 该组的查询有:
+	- geo_bounding_box
+	- geo_distance
+
+## Shape Query
+- 
