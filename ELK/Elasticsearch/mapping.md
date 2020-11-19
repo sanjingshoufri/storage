@@ -24,5 +24,19 @@
 - 没有匹配类型的父子
 
 # 列数据类型
-- 
-- 
+- 公共数据类型
+	- binary
+		- base64字符串编码的值
+	- boolean
+	- keywords
+	- numbers
+	- dates
+	- alias
+- 对象和关系类型
+	- object
+- 等等
+
+# 元数据列
+- \_index
+- \-type
+- \_id
