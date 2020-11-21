@@ -3,7 +3,7 @@
 ## Redis与MySQL数据一致性问题
 
 ### MySQL同步Redis
-MySQL与Redis双写的问题
+- MySQL与Redis双写的问题
 - 实时同步
     - 写入Redis成功，再写MySQL.场景，
     - 
