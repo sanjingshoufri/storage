@@ -16,14 +16,18 @@
 		        - 允许事务有读一行的锁
 	        - 互斥锁(写锁)
 		        - 允许事务更新或删除一行的锁
-		        - 
+		        - Demo
+			        - BEGIN;
+						- SELECT name,sleep(10) FROM tn_user WHERE id = 1 FOR UPDATE
+						- UPDATE tn_user SET name = 'sss' WHERE id = 1
+					- COMMIT;
     - 表锁 
 	    - 避免其他的客户端会话在指定时间内访问同一张表
 	    - 分类
 		    - 自增锁
 				- 如果表中存在自增字段，MySQL会自动维护一个自增锁
 		- 操作
-			- 
+			- LOCK TABLES table_name [READ | WRITE]
 
 ### 排它锁
 - 当对某行记录添加排它锁
