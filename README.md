@@ -3,6 +3,8 @@
 
 ## Redis
 - 集群
+- 网络
+- 持久化
 
 ## MySQL
 - 应用
@@ -16,12 +18,15 @@
 - 工具
 
 ## InfluxDB
+时序数据库
+
 
 ## Elasticsearch
 搜索引擎
 - 查询
 
 ## Kibana
+日志分析
 
 ## Logstash
-- 原理
+采集
