@@ -1,4 +1,4 @@
-# influxDB的配置和安装
+
 ## 配置
 - influxd config   //查看相关配置
 

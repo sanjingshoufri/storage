@@ -22,9 +22,25 @@
 	- 没有多列值依赖
 
 
+# 存储引擎
+- 定义
+	- 处理SQL操作
+- 分类
+	- 事务与非事务	
+		- Innodb支持事务，MySQL默认的搜索引擎
+	- 列表
+	    - InnoDB
+		- MyISAM
+		- MEMORY
+		- MERGE	
+- 指令
+	- SHOW ENGINES
+        
+
 # 数据类型
 ## 文本型
-- BLOB, TEXT, GEOMETRY or JSON column can't have a default value
+- BLOB
+- TEXT
 
 # Key
 - 概述
@@ -45,12 +61,11 @@
 - MySQL无连接限制
 
 # MySQL结构
-
-
-# 存储引擎
-## 概述
-- 平衡高可用和高性能
+- 大多数DBMS使用API，通过存储引擎和用户交互
+- Schema
+	- 提供数据库布局的总结
+		- 信息是如何存储在数据库中
 - 
 
-## Innodb
-- 支持事务
+# E-R模型
+- 实体间的关系
