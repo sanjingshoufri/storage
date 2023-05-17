@@ -24,7 +24,9 @@
 - 下载rpm包
 	- 通过yum安装
 - 下载TGZ	
-	- sudo chown `whoami` /var/lib/mongo  #
+	- sudo chown `whoami` /var/lib/mongo  # 改变文件的所属人和组
+- 运行
+	- mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
 
 
 # Mongo Shell安装
@@ -35,6 +37,9 @@
 	- 在mongodb安装路径下的bin目录中，双击mongosh.exe即可打开Mongo Shell
 
 ## Centos
-- 下载TGZ	
+- 下载TGZ
+   - 下载之前，一定要选择和CPU对应的包	
 	- 解压，bin目录给予可执行权限 
-	   - 
+- 配置
+- 运行
+	- mongosh
