@@ -30,7 +30,6 @@
 		- MERGE	
 - 指令
 	- SHOW ENGINES
-        
 
 # 数据类型
 ## 文本型

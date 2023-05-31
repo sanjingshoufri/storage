@@ -6,5 +6,5 @@
 - 删除数据
     - show retention policies on "db_name"
 
-- 查询数据     
+- 查询数据
     - 显示所有已存在的连续查询 SHOW CONTINUOUS QUERIES    

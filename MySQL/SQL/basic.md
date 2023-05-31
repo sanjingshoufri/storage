@@ -1,5 +1,10 @@
-# 基础
-## 运算顺序
+# 概述
+- DDL
+	- Data Definition Language
+- DML
+	- Data Manipulation Language
+
+# 运算顺序
 - 理论上的运行顺序
 1. FROM 
 2. ON 
